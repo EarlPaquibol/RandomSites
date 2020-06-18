@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Earl Paquibol">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Coronavirus</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+</head>
+<body>
+    <header>
+        <nav id="header-nav" class="navbar navbar-default">
+            <div class="container">
+                <div class="navbar-header"> <!-- LOGO -->
+                    <a href="index.html" class="pull-left visible-md visible-lg">
+                        <div id="logo-img"></div>
+                    </a>
+
+                    <div class="navbar-brand"> <!-- LOGO/BRAND NAME-->
+                        <a href="index.html"><h1>Coronavirus</h1></a>
+                        <span>24/7 COVID19 Updates</span>
+                    </div>
+    
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <div id="collapsable-nav" class="collapse navbar-collapse"> <!-- holds the items for collapsable menu-->
+                    <ul id="nav-list" class="nav navbar-nav navbar-right">
+                        <li>
+                            <a href="https://www.who.int/emergencies/diseases/novel-coronavirus-2019" target="_blank">
+                            <span class="glyphicon glyphicon-globe"><br class="hidden-xs"> WHO</span></a>
+                        </li>
+                        <li>
+                            <a href="#info"><span class="glyphicon glyphicon-info-sign"><br class="hidden-xs"> Info</span></a>
+                        </li>
+                        <li id="phone" class="hidden-xs">
+                            <a href="tel: 99999">
+                                <span>02-2132141</span></a><div>* Contact Us</div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <div id="call-btn" class="visible-xs">
+        <a class = "btn" href="tel: 99999">
+            <span class="glyphicon glyphicon-earphone"></span>
+            02-2132141
+        </a>
+    </div>
+    <div id="xs-deliver" class="text-center visible-xs">* Contact Us</div>
+
+    <div id = "main-content" class="container">
+        <div class="jumbotron">
+            <img src="images/covid19-s.jpg" alt="picture of patients"\
+            class="img-responsive visible-xs">
+        </div>
+
+        <div id="home-tiles" class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="https://www.doh.gov.ph/2019-nCoV" target="_blank"><div id="update-tile"><span>Updates</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12">
+                <a href="https://www.who.int/westernpacific/emergencies/covid-19/news-covid-19" target="_blank"><div id="news-tile"><span>News</span></div></a>
+            </div>
+            <div class="col-md-4 col-sm-12 col-xs-12">
+                <a href="https://goo.gl/maps/Xwrfu3B56Y6W27Gv5">
+                    <div id="map-tile">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15442.843469216823!2d120.981937!3d14.6155397!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x6dac4018b910b527!2sDepartment%20of%20Health!5e0!3m2!1sen!2sph!4v1592478687423!5m2!1sen!2sph" width="100%" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>    
+                    <span>Map</span></div></a>
+            </div>
+        </div>
+    </div> <!--end of main-content-->
+
+    <footer class="panel-footer">
+        <div class="container">
+            <div class="row" id="info">
+                <section id="hours" class="col-sm-4">
+                    <span>Working Hours:</span><br>
+                    Sun-Thurs: 11:15am - 10:00pm<br>
+                    Fri: 11:15am - 2:30pm<br>
+                    Saturday Closed
+                    <hr class="visible-xs">
+                </section>
+                <section id="address" class="col-sm-4">
+                    <span>Address:</span><br>
+                    Katarungan Village, Poblacion<br>
+                    Muntinlupa City, Philippines
+                    <p>* Contact me thru LinkedIn</p>
+                    <hr class="visible-xs">
+                  </section>
+                  <section id="quotes" class="col-sm-4">
+                    <p>"Pandemic is not a word to use lightly or carelessly. It is a word that, if misused, can cause unreasonable fear, or unjustified acceptance that the fight is over, leading to unnecessary suffering and death." </p>
+                    <p>"In the days and weeks ahead, we expect to see the number of cases, the number of deaths, and the number of affected countries climb even higher"</p>
+                  </section>
+            </div>
+            <div class="text-center">&copy; Copyright Earl Paquibol 2020</div>
+        </div>
+    </footer>
+
+
+
+    <!-- jQuery (Bootstrap JS plugins depend on it) -->
+    <script src="js/jquery-2.1.4.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+
+</body>    
+</html>

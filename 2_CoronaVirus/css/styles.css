@@ -1,0 +1,248 @@
+body {
+  font-size: 16px;
+  color: white;
+  background-color: turquoise;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav{
+  background-color: black;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/Coronavirus.png');
+  width: 150px;
+  height: 150px;
+  margin: 10px 30px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+
+.navbar-brand h1 { /*Header Coronavirus */
+  color: white;
+  line-height: .75;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-emphasis: none;
+  text-decoration: none;
+}
+
+.navbar-brand span{
+  font-size: 0.8em;
+}
+
+#nav-list{
+  margin-top: 20px;
+}
+
+#nav-list a{
+  color: white;
+  text-align: center;
+}
+
+#nav-list a:hover{
+  background: #16162c;
+}
+
+#nav-list a span {
+  font-size: 1.3em;
+}
+
+#phone a { /*number*/
+  text-align: right;
+  padding-bottom: 0px;
+}
+
+#phone div { /* Contact Us */
+  color: gray;
+  text-align: right;
+  padding-right: 15px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid white;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+/** END HEADER **/
+
+
+/* HOME PAGE */
+.container .jumbotron {
+  box-shadow: 0 0 50px teal;
+  border: 2px solid teal;
+}
+
+#update-tile, #news-tile, #map-tile {
+  height: 250px;
+  width: 100%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid teal;
+  overflow: hidden;
+}
+#update-tile:hover, #news-tile:hover, #map-tile:hover {
+  box-shadow: 0 1px 5px 1px teal;
+}
+#update-tile {
+  background: url('../images/update.jpg') no-repeat;
+  background-position: center;
+}
+#news-tile {
+  background: url('../images/news.jpg') no-repeat;
+  background-position: center;
+}
+#update-tile span, #news-tile span, #map-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.3em;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/* END HOME PAGE */
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 35px;
+  padding-bottom: 30px;
+  background-color:black;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 35px;
+}
+#hours, #address {
+  line-height: 2;
+}
+#hours > span, #address > span {
+  font-size: 1.1em;
+}
+#address p {
+  color: gray;
+  font-size: .8em;
+  line-height: 1.8;
+}
+#quotes {
+  font-style: italic;
+}
+#quotes p:nth-child(2) {
+  margin-top: 25px;
+}
+/* END FOOTER */
+
+
+
+
+
+/****** MEDIA QUERIES ******/
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  .container .jumbotron {
+    background: url('../images/covid19-1200.jpg') no-repeat;
+    height: 675px;
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/covid19-med.jpg') no-repeat;
+    height: 558px;
+  }
+  /* End Home Page */
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  /* Home Page */
+  .container .jumbotron {
+    background: url('../images/covid19-s.jpg') no-repeat;
+    height: 432px;
+  }
+  /* End Home Page */
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 0px;
+    height: 80px;
+  }
+  .navbar-brand h1 { /* Corona */
+    padding-top: 10px;
+    font-size: 5vw; /* 1vw = 1% of viewport width */
+  }
+  .navbar-brand p { /* Covid19 */
+    font-size: .6em;
+    margin-top: 10px;
+  }
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+  }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+  #call-btn > a {
+    font-size: 1.5em;
+    display: block;
+    margin: 0 20px;
+    padding: 10px;
+    border: 1px solid #fff;
+    background-color: black;
+    color: white;
+  }
+  #xs-deliver {
+    margin-top: 5px;
+    font-size: .7em;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+  }
+  /* End Header */
+    /* Home Page */
+    .container .jumbotron {
+      margin-top: 30px;
+      padding: 0;
+    }
+    #update-tile, #news-tile {
+      width: 360px;
+      margin: 0 auto 15px;
+  }
+  
+  
+    /* Footer */
+    .panel-footer section {
+      margin-bottom: 30px;
+      text-align: center;
+    }
+    .panel-footer section:nth-child(3) {
+      margin-bottom: 0; /* margin already exists on the whole row */
+    }
+    .panel-footer section hr {
+      width: 50%;
+    }
+    /* End Footer */
+}
+
+  
+
+  
+
+
