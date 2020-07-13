@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WalletApp</title>
+        <meta name="author" content="Earl Paquibol">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/styles.css ">
+    </head>
+    <body>
+            <!-- .navbar-fixed-top, or .navbar-fixed-bottom can be added to keep the nav bar fixed on the screen -->
+            <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
+              <div class="container">
+              <a class="navbar-brand" href="#"><img src="images/Logo30X30.png"><span class="text-info">&nbsp;BudgetWallet</span></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link text-center" href="#">Home <span class="sr-only">(current)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" href="#about">About</a>
+                  </li>
+                </ul>
+                <div class="button-margin text-center">
+                  <button type="button" class="btn btn-outline-info buttons">Log In</button>
+                </div>
+                <div class="button-margin text-center">
+                  <button type="button" class="btn btn-info buttons">Sign Up</button>
+                </div>
+              </div>
+            </div>
+            </div>
+            </nav>
+
+            <div class="jumbotron jumbotron-fluid bg-info">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-6 text-white">
+                    <h1 class="display-4 align-center small-device"><img src="images/Logo60x60.png">&nbsp;BudgetWallet</h1>
+                    <p class="lead display-3 align-center small-device">Your Finances <br>In One Place</p>
+                    <br>
+                    <div class="row">
+                      <div class="col-lg-6 align-center app-button">
+                        <a href="https://play.google.com/" target="_blank"><img src="images/GooglePlay.png"></a>
+                      </div>
+                      <div class="col-lg-6 align-center app-button">
+                        <a href="https://www.apple.com/ph/ios/app-store/" target="_blank"><img src="images/AppStore.png"></a>
+                      </div>
+                    </div>  
+                  </div>
+                  <div class="col-lg-6 align-center">
+                    <picture>
+                      <source 
+                        media="(max-width: 650px)"
+                        srcset="images/PhoneImage_smaller.png">
+                        <img src="images/PhoneImage.png">
+                    </picture>
+                    <!-- <img src="images/PhoneImage.png"> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="jumbotron jumbotron-fluid bg-white">
+              <div class="container">
+                <h1 class="margin-bottom display-4 text-center align-center small-device" style="padding-bottom: 20px">With Wallet You Can:</h1>
+                <div class="row">
+                  <div class="col-lg-4 text-black">
+                    <h1 class="text-center youCanText small-device"><img src="images/CashMoney.png"><br>See the Whole Picture</h1>
+                    <p class="lead display-5 text-center margin-bottom">One app to unite your finances.</p>
+                  </div>
+                  <div class="col-lg-4 text-black">
+                    <h1 class="text-center youCanText small-device"><img src="images/ManageChart.png"><br>Manage Your Cash</h1>
+                    <p class="lead display-5 text-center margin-bottom">Get ahead of the curve.</p>
+                  </div>
+                  <div class="col-lg-4 text-black">
+                    <h1 class="text-center youCanText small-device"><img src="images/Save.png"><br>Save More</h1>
+                    <p class="lead display-5 text-center">Get rich faster.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="jumbotron jumbotron-fluid bg-primary">
+              <div class="container">
+                <div class="row">
+                  <div class="col-lg-3 text-black">
+                    <h1 class="text-center small-device text-white"><br>Being Ready, for Whatever</h1>
+                    <p class="lead text-center smaller-device text-white">Our lives can change overnight, and one of the things that affects us the most is our money.</p>
+                    <p class="lead text-center smaller-device text-white">BudgetBakers was built on the idea that knowing is better than hoping. We make apps for people who ask tough questions and want real answers.</p>
+                    <p class="lead text-center smaller-device text-white">Am I ready for the future? Am I doing all I can? It’s never too early, or too late, to start asking.</p>
+                  </div>
+                  <div class="col-lg-9 text-black text-center padding-left">
+                    <picture>
+                      <source 
+                        media="(max-width: 650px)"
+                        srcset="images/BeingReady_smaller.png">
+                        <img src="images/BeingReady.png">
+                    </picture>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div id="about" class="jumbotron jumbotron-fluid bg-success">
+              <h1 class="display-4 text-center small-device text-white">About</h1>
+              <div class="slider-area">
+                <div class="container">
+                  <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="img-area">
+                          <img src="images/Save.png">
+                        </div>
+                        <div class="carousel-caption">
+                          <h2>Wallet App</h2>
+                          <h4>Project in .Net3</h4>
+                          <p class="lead text-center">The following were used in this project: HTML, CSS, JS, SQL, AND ASP.NET</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="img-area respic">
+                          <img src="images/resume_pic.jpg">
+                        </div>
+                        <div class="carousel-caption">
+                          <h2>Earl Paquibol</h2>
+                          <h4>Student</h4>
+                          <p class="lead text-center">Currently studying at Mapua University</p>
+                        </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="img-area">
+                          <img src="images/Phone.png">
+                        </div>
+                        <div class="carousel-caption">
+                          <h2>Contact me</h2>
+                          <p class="lead text-center" style="font-size: 1.1em">Phone: 09273141390 <br> Email: earl.iii.1998@gmail.com <br> Address: Katarungan Village, Muntinlupa City</p>
+                        </div>
+                      </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="sr-only">Next</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <footer class="text-center bg-white">
+              <div>
+                <a href="https://www.facebook.com/earlpaquibol" target="_blank"><img style="padding:5px 5px 0px 0px;" src="images/rsz_facebook.png"></a>
+                <a href="https://github.com/EarlPaquibol" target="_blank"><img style="padding:5px 5px 0px 0px;" src="images/rsz_github.png"></a>
+                <a href="https://www.gmail.com/" target="_blank"><img style="padding:5px 5px 0px 0px;" src="images/rsz_google-plus.png"></a>
+                <a href="https://www.linkedin.com/in/ernesto-paquibol-319b541b1/" target="_blank"><img style="padding:5px 0px 0px 0px;" src="images/rsz_linkedin.png"></a>
+              </div>
+              <span>&copy; Earl Paquibol 2020</span>
+            </footer>
+        <script src="js/jquery-2.1.4.min.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+    </body>
+</html>

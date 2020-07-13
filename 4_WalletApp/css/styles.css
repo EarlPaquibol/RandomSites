@@ -1,0 +1,147 @@
+body {
+  background-color: white;
+}
+
+.navbar
+{
+  background-color: white;
+}
+
+.buttons
+{
+  border-radius: 50px;
+}
+
+.jumbotron
+{
+  margin-bottom: 0px;
+}
+
+.youCanText
+{
+  font-size: 2.1em;
+}
+
+.margin-bottom
+{
+  margin-bottom: 40px;
+}
+
+.button-margin
+{
+  margin-right: 5px;
+}
+
+.padding-left
+{
+  padding-top: 25px;
+  padding-left: 200px;
+}
+
+/* CAROUSEL  */
+.slider-area
+{
+  padding: 50px 0;
+  position: relative;
+  margin: 0;
+}
+
+.img-area 
+{
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  overflow: hidden;
+}
+
+.img-area img
+{
+  width: 100%;
+}
+
+.carousel-caption
+{
+  position: static;
+  padding-bottom: 15px;
+  padding-top: 20px;
+}
+
+.carousel-indicators
+{
+  bottom: -35px;
+}
+
+/* END OF CAROUSEL  */
+
+.respic
+{
+  border-radius: 50%;
+}
+
+
+/* FOR DEVICES */
+@media (min-width: 320px) and (max-width: 1199px) {
+  .align-center
+  {
+    text-align: center;
+  }
+  .app-button
+  {
+    margin-bottom: 15px;
+  }
+  .padding-left
+  {
+    padding-top: 0px;
+    padding-left: 0px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 991px) {
+  .button-margin
+  {
+    margin-bottom: 5px;
+    margin-right: 0px;
+    padding-left: 5px;
+  }
+
+  .buttons
+  {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+@media (min-width: 320px) and (max-width: 720px) {
+  .button-margin
+  {
+    margin-bottom: 5px;
+    margin-right: 0px;
+    padding-left: 5px;
+  }
+
+  .buttons
+  {
+    padding-left: 100px;
+    padding-right: 100px;
+  }
+}
+
+/* TEXT ADJUSMENT */
+@media (min-width: 320px) and (max-width: 440px) {
+  .small-device{
+    font-size: 2em;
+  }
+  .smaller-device 
+  {
+    font-size: 1.4em;
+  }
+  .padding-left
+  {
+    padding-top: 10px;
+    padding-left: 0px;
+  }
+}
+
+
+
+
