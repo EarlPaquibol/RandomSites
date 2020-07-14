@@ -12,101 +12,146 @@
             <!-- .navbar-fixed-top, or .navbar-fixed-bottom can be added to keep the nav bar fixed on the screen -->
             <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
               <div class="container">
-              <a class="navbar-brand" href="#"><img src="images/Logo30X30.png"><span class="text-info">&nbsp;BudgetWallet</span></a>
+              <a class="navbar-brand" href="index.html"><img src="images/Logo30X30.png"><span class="text-info">&nbsp;BudgetWallet</span></a>
               <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
 
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mr-auto">
-                  <li class="nav-item active">
-                    <a class="nav-link text-center" href="#">Home <span class="sr-only">(current)</span></a>
+                  <li class="nav-item">
+                    <a class="nav-link text-center" href="index.html">Home <span class="sr-only">(current)</span></a>
                   </li>
                   <li class="nav-item">
                     <a class="nav-link text-center" href="#about">About</a>
                   </li>
                 </ul>
-                <div class="button-margin text-center">
-                  <a href="LogIn.html"><button type="button" class="btn btn-outline-info buttons">Log In</button></a>
-                </div>
-                <div class="button-margin text-center">
-                  <a href="SignUp.html"><button type="button" class="btn btn-info buttons">Sign Up</button></a>
-                </div>
               </div>
             </div>
             </div>
             </nav>
 
-            <div class="jumbotron jumbotron-fluid bg-info">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-6 text-white">
-                    <h1 class="display-4 align-center small-device"><img src="images/Logo60x60.png">&nbsp;BudgetWallet</h1>
-                    <p class="lead display-3 align-center small-device">Your Finances <br>In One Place</p>
-                    <br>
-                    <div class="row">
-                      <div class="col-lg-6 align-center app-button">
-                        <a href="https://play.google.com/" target="_blank"><img src="images/GooglePlay.png"></a>
-                      </div>
-                      <div class="col-lg-6 align-center app-button">
-                        <a href="https://www.apple.com/ph/ios/app-store/" target="_blank"><img src="images/AppStore.png"></a>
-                      </div>
-                    </div>  
+            <!-- SIGN UP CODE STARTS HERE -->
+            <form class="needs-validation" novalidate>
+              <div class="jumbotron">
+                <div class="container">
+                  <h1 class="display-4 small-device bold-small">Create an account</h1>
+                  <h4 class="lead smaller-device">Sign up below to create a secured account</h4>
+              <div class="form-row">
+                <div class="form-group col-md-6">
+                  <label>First name</label>
+                  <input type="text" class="form-control" required>
+                  <div class="valid-feedback">
+                    Looks good!
                   </div>
-                  <div class="col-lg-6 align-center">
-                    <picture>
-                      <source 
-                        media="(max-width: 650px)"
-                        srcset="images/PhoneImage_smaller.png">
-                        <img src="images/PhoneImage.png">
-                    </picture>
-                    <!-- <img src="images/PhoneImage.png"> -->
+                  <div class="invalid-feedback">
+                    Please provide your first name
+                  </div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label>Last name</label>
+                  <input type="text" class="form-control" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Please provide your last name
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="jumbotron jumbotron-fluid bg-white">
-              <div class="container">
-                <h1 class="margin-bottom display-4 text-center align-center small-device" style="padding-bottom: 20px">With Wallet You Can:</h1>
-                <div class="row">
-                  <div class="col-lg-4 text-black">
-                    <h1 class="text-center youCanText small-device"><img src="images/CashMoney.png"><br>See the Whole Picture</h1>
-                    <p class="lead display-5 text-center margin-bottom">One app to unite your finances.</p>
+              <div class="form-row">
+                <div class="form-group col-md-4">
+                  <label>Gender</label>
+                  <select class="custom-select form-control" required>
+                    <option selected disabled value="">Please select one</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                  </select>
+                  <div class="valid-feedback">
+                    Looks good!
                   </div>
-                  <div class="col-lg-4 text-black">
-                    <h1 class="text-center youCanText small-device"><img src="images/ManageChart.png"><br>Manage Your Cash</h1>
-                    <p class="lead display-5 text-center margin-bottom">Get ahead of the curve.</p>
+                  <div class="invalid-feedback">
+                    Please provide your gender
                   </div>
-                  <div class="col-lg-4 text-black">
-                    <h1 class="text-center youCanText small-device"><img src="images/Save.png"><br>Save More</h1>
-                    <p class="lead display-5 text-center">Get rich faster.</p>
+                </div>
+                <div class="form-group col-md-4">
+                  <label>State</label>
+                  <select class="custom-select form-control" required>
+                    <option selected disabled value="">Please select one</option>
+                    <option>.....</option>
+                    <option>.....</option>
+                  </select>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Please provide a state
+                  </div>
+                </div>
+                <div class="form-group col-md-4">
+                  <label>Contact</label>
+                  <input type="text" class="form-control" placeholder="Ex. 927XXXXXXX" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Incorrect contact
                   </div>
                 </div>
               </div>
-            </div>
-
-            <div class="jumbotron jumbotron-fluid bg-primary">
-              <div class="container">
-                <div class="row">
-                  <div class="col-lg-3 text-black">
-                    <h1 class="text-center small-device text-white"><br>Being Ready, for Whatever</h1>
-                    <p class="lead text-center smaller-device text-white">Our lives can change overnight, and one of the things that affects us the most is our money.</p>
-                    <p class="lead text-center smaller-device text-white">BudgetBakers was built on the idea that knowing is better than hoping. We make apps for people who ask tough questions and want real answers.</p>
-                    <p class="lead text-center smaller-device text-white">Am I ready for the future? Am I doing all I can? It’s never too early, or too late, to start asking.</p>
+              <div class="form-row">
+                <div class="form-group col-md-12">
+                  <label>Username</label>
+                  <input type="text" class="form-control" required>
+                  <div class="valid-feedback">
+                    Looks good!
                   </div>
-                  <div class="col-lg-9 text-black text-center padding-left">
-                    <picture>
-                      <source 
-                        media="(max-width: 650px)"
-                        srcset="images/BeingReady_smaller.png">
-                        <img src="images/BeingReady.png">
-                    </picture>
+                  <div class="invalid-feedback">
+                    Incorrect username
                   </div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label>Password</label>
+                  <input type="password" class="form-control" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Please enter password
+                  </div>
+                </div>
+                <div class="form-group col-md-6">
+                  <label>Confirm Password</label>
+                  <input type="password" class="form-control" required>
+                  <div class="valid-feedback">
+                    Looks good!
+                  </div>
+                  <div class="invalid-feedback">
+                    Please enter password
                   </div>
                 </div>
               </div>
+              <div class="form-group text-center">
+                <div class="form-check middle">
+                  <input class="form-check-input" type="checkbox" value="" required>
+                  <label class="form-check-label">
+                    I've read the terms and conditions
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before submitting.
+                  </div>
+                </div>
+              </div>
+              <div class="text-center">
+              <button type="submit" class="btn btn-info buttons middle" style="width: 70%;">Sign Up</button>
             </div>
+              <div class="text-center" style="padding: 5px 0px;">
+                <span>Already have an account? <a href="LogIn.html" class="text-info">Sign In</a></span>
+              </div>
+              </div>  <!-- container CODE ENDS HERE -->
+              </div> <!-- jumbatron CODE ENDS HERE -->
+            </form>
+            <!-- SIGN UP CODE ENDS HERE -->
 
 
             <div id="about" class="jumbotron jumbotron-fluid bg-success">
@@ -174,5 +219,6 @@
             </footer>
         <script src="js/jquery-2.1.4.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
+        <script src="js/script.js"></script>
     </body>
 </html>

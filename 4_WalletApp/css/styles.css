@@ -1,3 +1,7 @@
+html
+{
+  scroll-behavior: smooth;
+}
 body {
   background-color: white;
 }
@@ -78,6 +82,40 @@ body {
   border-radius: 50%;
 }
 
+/* forms */
+
+.form-control:focus{
+  border-color: green;
+}
+
+.form-check-input.is-valid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label
+{
+  color: grey;
+}
+
+.s-device
+{
+  font-size: 2.5em;
+}
+
+.p-top
+{
+  padding-top: 80px;
+}
+
+
+.border-radius-first
+{
+  border-radius: 15px 0 0 15px;
+}
+
+.border-radius-last
+{
+  border-radius: 0 15px 15px 0;
+}
+
+
+
 
 /* FOR DEVICES */
 @media (min-width: 320px) and (max-width: 1199px) {
@@ -94,6 +132,12 @@ body {
     padding-top: 0px;
     padding-left: 0px;
   }
+  
+  .middle 
+  {
+    width: 100%;
+    margin: auto;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 991px) {
@@ -108,6 +152,12 @@ body {
   {
     padding-left: 100px;
     padding-right: 100px;
+  }
+
+  .s-device
+  {
+    font-size: 1.5em;
+    text-align: center;
   }
 }
 
@@ -126,6 +176,22 @@ body {
   }
 }
 
+@media (min-width: 320px) and (max-width: 767px) {
+  .p-top
+  {
+    padding-top: 10px;
+  }
+  .border-radius-first
+{
+  border-radius: 15px 15px 0 0;
+}
+
+.border-radius-last
+{
+  border-radius: 0 0 15px 15px;
+}
+}
+
 /* TEXT ADJUSMENT */
 @media (min-width: 320px) and (max-width: 440px) {
   .small-device{
@@ -139,6 +205,10 @@ body {
   {
     padding-top: 10px;
     padding-left: 0px;
+  }
+  .bold-small
+  {
+    font-weight: bold;
   }
 }
 
