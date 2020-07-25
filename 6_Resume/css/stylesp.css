@@ -1,0 +1,170 @@
+html {
+  scroll-behavior: smooth;
+}
+
+/* HEADER */
+.navbar {
+  background: #bbe1fa;
+  font-family: "Darker Grotesque", sans-serif;
+  font-size: 1.5em;
+}
+
+.active {
+  color: #1b262c;
+}
+
+.logo {
+  height: 100px;
+  width: 10%;
+}
+.about-link {
+  margin-right: 50px;
+}
+
+a {
+  color: #3282b8;
+}
+
+a:hover {
+  color: #1b262c;
+  text-decoration: none;
+}
+
+/* END OF HEADER */
+
+/* TOP CONTENT */
+.jumbotron {
+  padding-bottom: 0px;
+}
+#heading-content {
+  background-color: #bbe1fa;
+  position: relative;
+}
+
+.top-sun {
+  position: absolute;
+  top: 10px;
+  left: 60%;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-size: 5em;
+  font-family: "Dancing Script", cursive;
+  color: #0f4c75;
+}
+
+h2 {
+  font-size: 2em;
+  color: #0f4c75;
+  font-weight: normal;
+  font-family: "Mulish", sans-serif;
+  margin-bottom: 30px;
+}
+
+p {
+  line-height: 2;
+  font-size: 1.3em;
+  font-family: "Darker Grotesque", sans-serif;
+}
+
+.user-img {
+  margin: 5px auto 20px auto;
+}
+
+/* END OF TOP CONTENT */
+
+/* MIDDLE CONTENT */
+#middle-content {
+  background-color: white;
+}
+
+hr {
+  border: dotted #f6f6f6 10px;
+  border-bottom: none;
+  width: 15%;
+  margin: 80px auto 80px auto;
+}
+
+h3 {
+  color: #3282b8;
+  font-size: 1.3em;
+  font-family: "Mulish", sans-serif;
+}
+
+.text-align {
+  text-align: center;
+}
+
+.bulb-gif {
+  float: left;
+  margin-right: 30px;
+}
+
+.code-gif {
+  float: right;
+  margin-left: 30px;
+}
+.skill-row {
+  margin: 50px auto 0 auto;
+}
+
+.contact-me {
+  margin-top: 50px;
+}
+
+.button {
+  background-color: #bbe1fa;
+  border-radius: 20px;
+  color: #0f4c75;
+  padding: 10px;
+  border: solid #337fed 1px;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  text-align: center;
+}
+
+.button:hover {
+  border: solid #337fed 1px;
+  background: #1e62d0;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+/* END OF MIDDLE CONTENT */
+
+/* START OF FOOTER*/
+#bottom-content {
+  margin-top: 80px;
+  padding-top: 20px;
+  background-color: #bbe1fa;
+  margin-bottom: 0px;
+}
+
+.cred {
+  margin-bottom: 0px;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+  .work-link {
+    margin-right: 10px;
+  }
+  .top-sun {
+    top: 0px;
+  }
+}
+
+/* END OF FOOTER*/
+
+
+
+
+/* START OF PROJECT CONTENT */
+
+#project-content{
+    background-color: pink;
+}
