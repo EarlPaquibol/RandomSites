@@ -63,7 +63,6 @@ h2 {
 }
 
 p {
-  line-height: 2;
   font-size: 1.3em;
   font-family: "Darker Grotesque", sans-serif;
 }
@@ -166,5 +165,45 @@ h3 {
 /* START OF PROJECT CONTENT */
 
 #project-content{
-    background-color: pink;
+    background-color: #1b1c25;
+    margin: 0px;
 }
+
+#projecttwo-content{
+    background-color: #206a5d;
+    margin: 0px;
+}
+
+.white{
+    color: white;
+    margin: 0px;
+    padding-bottom: 40px;
+}
+
+.spacing{
+    padding-bottom: 5px;
+}
+
+.margin{
+    margin-bottom: 30px;
+}
+
+.button-view {
+    background-color: #EBECF1;
+    border-radius: 20px;
+    color: #1b1c25;
+    padding: 10px;
+    border: solid #EBECF1 1px;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .button-view:hover {
+    border: solid #1f4068;
+    background: #1f4068;
+    color: white;
+    border-radius: 20px;
+    text-decoration: none;
+  }
