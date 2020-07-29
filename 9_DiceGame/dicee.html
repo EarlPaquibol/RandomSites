@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Dicee</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower|Lobster" rel="stylesheet">
+
+  </head>
+  <body>
+
+    <div class="container">
+      <h1>Game time!</h1>
+      <h2>Player 1! Roll the dice!</h2>
+      <input type="checkbox" name="" id="checked" style="visibility: hidden;">
+
+
+      <div class="dice">
+        <p>Player 1</p>
+        <img class="img1" src="images/dice6.png">
+        <button onclick="player1Roll()" class="btn">Roll</button>
+      </div>
+
+      <div class="dice">
+        <p>Player 2</p>
+        <img class="img2" src="images/dice6.png">
+        <button onclick="player2Roll()" class="btn">Roll</button>
+      </div>
+
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+
+  <footer>
+    &copy; Earl Paquibol 2020
+  </footer>
+</html>
