@@ -75,9 +75,9 @@ function winner(){
         document.querySelector("h1").textContent = "Draw!";
       } 
       else if (randomNumber1 > randomNumber2) {
-        document.querySelector("h1").textContent = playerOne + " wins!";
+        document.querySelector("h1").textContent = playerOne + " wins! 🚩";
       } 
       else {
-        document.querySelector("h1").textContent = playerTwo + " wins!";
+        document.querySelector("h1").textContent = playerTwo + " wins! 🚩";
       }
 }
