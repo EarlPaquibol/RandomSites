@@ -23,8 +23,21 @@
   background-color: red;
 }
 
+.btn1{
+  font-size: 1.5rem;
+  border-radius: 20%;
+  background-color: #4ECCA3;
+  color: white;
+  font-family: 'Indie Flower', cursive;
+}
+
+.btn1:hover{
+  background-color: red;
+}
+
 body {
   background-color: black;
+  color: white;
 }
 
 h1 {
