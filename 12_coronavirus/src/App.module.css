@@ -1,0 +1,11 @@
+body {
+    background-color: #30475e;
+    background-image: url("https://www.transparenttextures.com/patterns/broken-noise.png");
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}

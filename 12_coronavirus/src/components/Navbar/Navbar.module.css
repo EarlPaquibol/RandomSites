@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    margin: 0;
+    background-color: #3282b8;
+    padding: 15px 10%;
+    position: relative;
+}   
+
+.container header{
+    font-family: 'Amatic SC', cursive;
+    font-size: 2em;
+}
+
+
+.items{
+    position: absolute;
+    right: 10%;
+}
+
+.items li{
+    font-family: 'Amatic SC', cursive;
+    display: inline;
+    list-style-type: none;
+    padding: 20px;
+    align-items: flex-end;
+    font-size: 2em;
+}
+
+li a{
+    color: black;
+}
+
+li a:hover{
+    color: black;
+}
