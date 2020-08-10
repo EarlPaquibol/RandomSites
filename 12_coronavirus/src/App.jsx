@@ -4,6 +4,7 @@ import styles from "./App.module.css"
 import {fetchData} from "./api"
 import Header from "./components/Header/Header"
 import Navbar from "./components/Navbar/Navbar"
+import Footer from "./components/Footer/Footer"
 
 
 function App() {
@@ -34,6 +35,7 @@ function App() {
         <Cards data={data}/>
         <Country handleCountryChange={handleCountryChange}/>
         <Chart data={data} country={country}/>
+        <Footer />
       </div>
     </div>
   );  
